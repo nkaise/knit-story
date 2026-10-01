@@ -1,0 +1,70 @@
+.hero__section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1536px;
+  width: 100%;
+  height: 800px;
+  background-image: url("../../../../public/hero/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.hero__sectionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @media (max-width: 1024px) {
+    background: rgba(240, 220, 212, 0.8);
+    padding: 10px 24px;
+    border-radius: 8px;
+    gap: 20px;
+  }
+}
+
+.hero__title {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 42px;
+
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
+}
+
+.hero__text {
+  font-size: 30px;
+  font-weight: 500;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+.hero__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.hero__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero__item::before {
+  content: "";
+  background-image: url("../../../../public/heart.svg");
+  display: block;
+  height: 32px;
+  width: 100%;
+  max-width: 32px;
+}
+
+.hero__button {
+  max-width: 200px;
+}

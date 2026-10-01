@@ -30,13 +30,15 @@ const Header = () => {
                         alt={isOpen ? "Закрыть меню" : "Открыть меню"} width="30" height="24" />
                 </div>
             </nav>
-            <ul className={`${styles.mobileMenu} ${isOpen ? styles.mobileMenuOpen : ""}`}>
-                <li><a href="#!" onClick={closeMobileMenu}>Каталог</a></li>
-                <li><a href="#!" onClick={closeMobileMenu}>О мастере</a></li>
-                <li><a href="#!" onClick={closeMobileMenu}>Как заказать</a></li>
-                <li><a href="#!" onClick={closeMobileMenu}>Доставка</a></li>
-                <li><a href="#!" onClick={closeMobileMenu}>Контакты</a></li>
-            </ul>
+            {isOpen && (
+                <ul className={styles.mobileMenuOpen}>
+                    <li><a href="#!" onClick={closeMobileMenu}>Каталог</a></li>
+                    <li><a href="#!" onClick={closeMobileMenu}>О мастере</a></li>
+                    <li><a href="#!" onClick={closeMobileMenu}>Как заказать</a></li>
+                    <li><a href="#!" onClick={closeMobileMenu}>Доставка</a></li>
+                    <li><a href="#!" onClick={closeMobileMenu}>Контакты</a></li>
+                </ul>
+            )}
         </>
     );
 };

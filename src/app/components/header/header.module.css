@@ -50,15 +50,7 @@
   }
 }
 
-.mobileMenu {
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.2s ease;
-}
-
-.mobileMenu.mobileMenuOpen {
-  opacity: 1;
-  pointer-events: all;
+.mobileMenuOpen {
   background-color: #a26659;
   padding: 15px 30px;
   border-radius: 8px;
@@ -68,9 +60,8 @@
   max-width: 500px;
   width: 100%;
   gap: 15px;
-  transition: all 0.2s ease;
 }
 
-.mobileMenu.mobileMenuOpen li a {
+.mobileMenuOpen li a {
   color: #fdf8f6;
 }

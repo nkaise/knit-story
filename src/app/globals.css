@@ -34,6 +34,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  background: #d13f41;
 }
 
 a {
@@ -45,6 +46,7 @@ a {
   border-radius: 8px;
   color: #f8ebeb;
   background: #ea5b5d;
+  transition: all 0.3s ease;
 }
 
 li a {
@@ -56,14 +58,18 @@ li a {
   font-weight: 500;
 }
 
+li a:hover {
+  background: none;
+  color: #935c53;
+}
+
 /* Common */
 
 aside,
 nav,
 footer,
 header,
-section,
-main {
+section {
   display: block;
   max-width: 1500px;
   margin: 0 auto;
