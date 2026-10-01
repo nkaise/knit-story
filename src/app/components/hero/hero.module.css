@@ -9,6 +9,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+
+  @media (max-width: 550px) {
+    justify-content: center;
+    align-items: flex-start;
+    height: 600px;
+  }
 }
 
 .hero__sectionWrapper {
