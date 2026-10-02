@@ -1,3 +1,4 @@
+import About from "./components/about/About";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import PopularItems from "./components/popular-items/PopularItems";
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Hero />
         <PopularItems />
+        <About />
       </main>
     </div>
   );
