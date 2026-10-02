@@ -87,6 +87,11 @@ p {
   font-weight: inherit;
 }
 
+h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
 ul,
 ul li {
   list-style: none;

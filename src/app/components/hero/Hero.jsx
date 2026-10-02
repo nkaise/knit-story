@@ -6,7 +6,7 @@ const Hero = () => {
         <section className={styles.hero__section}>
             <div className={styles.hero__sectionWrapper}>
                 <h1 className={styles.hero__title}>Вязаные вещи <br /> ручной работы</h1>
-                <p className={styles.hero__text}>Создаём вручную в Ангарске. <br /> Для всей семьи.</p>
+                <h2 className={styles.hero__text}>Создаём вручную в Ангарске. <br /> Для всей семьи.</h2>
                 <ul className={styles.hero__list}>
                     <li className={styles.hero__item}>Связано вручную</li>
                     <li className={styles.hero__item}>Уникальные изделия</li>

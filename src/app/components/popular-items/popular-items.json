@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "image": "/popular/1.jpg",
+            "title": "Носки шерстяные",
+            "price": 1000
+        },
+        {
+            "id": 2,
+            "image": "/popular/2.jpg",
+            "title": "Детские пинетки",
+            "price": 1000
+        },
+        {
+            "id": 3,
+            "image": "/popular/3.jpg",
+            "title": "Повязка на голову",
+            "price": 1000
+        },
+        {
+            "id": 4,
+            "image": "/popular/4.jpg",
+            "title": "Шапки",
+            "price": 1000
+        }
+    ]
+}
