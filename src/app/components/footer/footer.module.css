@@ -1,0 +1,32 @@
+.footer {
+  background-color: #efcbc8;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 0;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.footer__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__title::before {
+  content: "";
+  display: block;
+  background-image: url("../../../../public/icons/heart.svg");
+  height: 32px;
+  width: 32px;
+}

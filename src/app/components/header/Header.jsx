@@ -15,7 +15,7 @@ const Header = () => {
         <>
             <nav className={styles.header}>
                 <div className={styles.header__logo}>
-                    <Image src="./logo.svg" alt="Логотип" width="225" height="25" />
+                    <Image src="./icons/logo.svg" alt="Логотип" width="225" height="25" />
                 </div>
                 <ul className={styles.header__list}>
                     <li><a href="#!">Каталог</a></li>
@@ -26,7 +26,7 @@ const Header = () => {
                 </ul>
                 <a href="#!" className={styles.header__button}>Заказать звонок</a>
                 <div className={styles.header__logoMobile} onClick={toggleMobileMenu}>
-                    <Image src={isOpen ? "./close-mobile-menu.svg" : "./mobile-menu.svg"}
+                    <Image src={isOpen ? "./icons/close-mobile-menu.svg" : "./icons/mobile-menu.svg"}
                         alt={isOpen ? "Закрыть меню" : "Открыть меню"} width="30" height="24" />
                 </div>
             </nav>

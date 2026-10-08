@@ -64,7 +64,7 @@
 
 .hero__item::before {
   content: "";
-  background-image: url("../../../../public/heart.svg");
+  background-image: url("../../../../public/icons/heart.svg");
   display: block;
   height: 32px;
   width: 100%;

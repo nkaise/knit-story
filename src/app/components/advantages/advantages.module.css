@@ -1,0 +1,33 @@
+.advantages__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  text-align: center;
+}
+
+.advantages__item:not(:last-child) {
+  border-right: 1px solid rgb(0, 0, 0, 0.2);
+
+  @media (max-width: 1024px) {
+    border-right: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  }
+}
+
+.advantages__title {
+  font-weight: 600;
+}

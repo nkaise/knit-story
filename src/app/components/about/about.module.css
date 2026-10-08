@@ -43,7 +43,7 @@
 .about__item::before {
   content: "";
   display: block;
-  background-image: url("../../../../public/knit-button.svg");
+  background-image: url("../../../../public/icons/knit-button.svg");
   width: 100%;
   max-width: 32px;
   height: 32px;
