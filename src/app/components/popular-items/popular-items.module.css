@@ -23,11 +23,15 @@
   }
 }
 
-.popular__grid li {
+.popular__grid li a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 0 30px 0;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.13);
   box-shadow: 2px 0 12px rgba(0, 0, 0, 0.12);
-  padding: 0 0 30px 0;
   border-radius: 8px;
   overflow: hidden;
 }
